@@ -1,7 +1,43 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 html {
   box-sizing: border-box;
   height: 100%;
   scroll-behavior: smooth;
+}
+
+button {
+  width: 183px;
+  height: 56px;
+  color: #FCB72B;;
+  border: 3px solid #FCB72B;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 20px;
+}
+
+p,
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+}
+a:hover{
+  color: #FCB72B;
+}
+span {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
 }
 
 *,
